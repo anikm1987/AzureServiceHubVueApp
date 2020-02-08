@@ -1,0 +1,19 @@
+{
+  "name": "live_video_stream",
+  "version": "1.0.0",
+  "description": "This is to host webrtc app using express",
+  "main": "node_server.js",
+  "scripts": {
+    "test": "node node_server.js"
+  },
+  "keywords": [
+    "webrtc",
+    "express"
+  ],
+  "author": "Aniket Mukherjee",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}

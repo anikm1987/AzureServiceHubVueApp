@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Conference</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+
+</head>
+
+<body>
+    <h1>WebRTC Video Confererence</h1>
+    <div id ='selectRoom'>
+        <label for="room_number">Enter the Room Number</label>
+        <input type="text" id='roomNumber'/>
+        <button id='goRoom'>Go</button>
+    </div>
+
+    <div id='consultingRoom' style="display:block">
+        <video id='localVideo' playsinline autoplay height="300" style="margin: 0 0 20px 0;"></video>
+        <video id='remoteVideo' playsinline autoplay height="300" style="margin: 0 0 20px 0;"></video>
+    </div>
+</body>
+<!-- Scripts tobe mentioned after body as we are initializing the variable and onclick in js file directly -->
+<script src="/socket.io/socket.io.js"></script>
+<script src="client.js"></script>
+
+</html>
