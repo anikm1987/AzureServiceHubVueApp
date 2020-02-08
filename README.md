@@ -1,2 +1,3 @@
-# AzureServiceHubVueApp
-This project is to create a typescript based client using vue.js for Service hub Queue display for Azure/GCP
+# Cloud Demo Projects
+
+This is to store all demo projects created as part time activity
